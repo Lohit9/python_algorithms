@@ -4,6 +4,13 @@
 #    * Printing
 #    * Finding an element
 
-class Node:
+class Node(object):
+    def __init__(self, data = None, next_node = None) :
+        self.data = data
+        self.next_node = next_node
 
-    def __init__
+    def print_list(self):
+        if not list:
+            print 'NULL'
+            return
+        while self.next_node != None:

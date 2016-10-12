@@ -7,9 +7,11 @@ def is_prime(num):
         else:
             return True
 
-class PrimeTestCases(unittest.TestCase):
+class TestCases(unittest.TestCase):
     def test_is_five_prime(self):
         self.assertFalse(is_prime(5))
 
 if __name__ == "__main__" :
     unittest.main()
+
+print [d['value'] for d in l]
